@@ -22,6 +22,12 @@ You should also set up a seed file to load some default gifs into your database.
 
 We recommend using the Giphy site to get gifs. Use the full URL that has the `.gif` file extension.
 
+## Installation
+* Fork the repository
+* Clone the repository
+* Create a directory called `backend` which will hold your backend code
+* At the end, submit a pull request with your completed code
+
 ## Notes on the Front End
 * This app uses primarily vanilla JavaScript for dom manipulation.
 * A CSS Framework called materialize is used for the modals. Here JQuery is used to turn them on and off.
