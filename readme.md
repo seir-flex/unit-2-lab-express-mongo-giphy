@@ -45,7 +45,7 @@ Your project should have:
 
 ## Notes on the Front End
 * This app uses JavaScript for dom manipulation.
-* A CSS Framework called materialize is used for the modals. Here JS is used to turn them on and off.
+* A CSS Framework called materialize is used for the modals. Here JQuery is used to turn them on and off.
 * [Axios](https://github.com/axios/axios) is used for AJAX requests.
 * Update appears when you click the grey button at the top.
 * Edit and delete appear when you click on an image. 
