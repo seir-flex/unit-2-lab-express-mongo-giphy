@@ -13,14 +13,12 @@ You must create an API that runs at `http://localhost:3000/gifs`. You must have 
 * PUT `gifs/:gifId` which will update a gif and return a list of all gifs
 * DELETE `gifs/:gifId` which will delete a gif and return a list of all gifs
 
-You should have your database set up to store a collection of gifs. Your schema should have two attributes:
+You should have your database set up to store a collection of gifs. Your model should have two attributes:
 * a `name` for the name of a gif
 * a `url` for the url of the gif
 If these are named differently, you will have to change the frontend!
 
-You should also set up a seed file to load some default gifs into your database.
-
-We recommend using the Giphy site to get gifs. Use the full URL that has the `.gif` file extension.
+You should also set up a seed file to load some default gifs into your database. We recommend using the Giphy site to get gifs. Use the full URL that has the `.gif` file extension (e.g. "https://media.giphy.com/media/3o6ozBUuLfzTCngAFi/giphy.gif"). 
 
 ## Installation
 * Fork the repository
@@ -44,6 +42,6 @@ We recommend using the Giphy site to get gifs. Use the full URL that has the `.g
 
 Your project should have:
 * CRUD routes on the application's backend.
-* a connected database, with fully functional schema and a model.
+* a connected database, with a fully functional model.
 * Fully functional frontend code.
 * Modularized Express code.
