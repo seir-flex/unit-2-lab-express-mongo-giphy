@@ -18,7 +18,9 @@ You should have your database set up to store a collection of gifs. Your model s
 * a `url` for the url of the gif
 If these are named differently, you will have to change the frontend!
 
-You should also set up a seed file to load some default gifs into your database. We recommend using the Giphy site to get gifs. Use the full URL that has the `.gif` file extension (e.g. "https://media.giphy.com/media/3o6ozBUuLfzTCngAFi/giphy.gif"). 
+You should also set up a seed file to load some default gifs into your database. We recommend using the Giphy site to get gifs. Use the full URL that has the `.gif` file extension (e.g. "https://media.giphy.com/media/3o6ozBUuLfzTCngAFi/giphy.gif").
+
+**Once you have your back end running on `http://localhost:3000/gifs`, open `index.html` on the front end.** (You shouldn't need to edit the front-end code for this to render.)
 
 ## Installation
 * Fork the repository
