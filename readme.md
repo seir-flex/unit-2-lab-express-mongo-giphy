@@ -20,9 +20,6 @@ backend code to make it functional!
 Build out your backed in the `backend/` directory. You are required to turn in
 your submission by making a pull request on the original repository.
 
-Unless otherwise specified on the calendar or by an instructor, homework is due
-the next morning by 9:00am.
-
 ## Requirements
 
 You must create an API that runs at `http://localhost:3000/gifs`. You must have
@@ -58,8 +55,7 @@ and frontend together, you may have to modify and fix your backend.
 
 ## Bonus
 
-* Deploy your backend to Heroku and frontend to GitHub pages.
-* Add tagging functionality.
+* Re-write the frontend in React.
 * Add another model to the API.
 
 ## Plagiarism
