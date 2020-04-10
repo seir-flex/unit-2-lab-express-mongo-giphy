@@ -55,6 +55,7 @@ and frontend together, you may have to modify and fix your backend.
 
 ## Bonus
 
+* create a `/seed` route that will populate the database with at least 3 giphys
 * Re-write the frontend in React.
 * Add another model to the API.
 
