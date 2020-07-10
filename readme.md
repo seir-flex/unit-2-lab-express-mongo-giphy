@@ -54,10 +54,15 @@ It's currently written in jQuery and is already configured to request gif's from
 * Once you have your back end running on `http://localhost:3000/gifs`, open `index.html` on the front end to test your routes via the frontend buttons.
 
 
-## Bonus
+### Bonus
 
-* Re-write the frontend in React.
-* Add another model to the API.
+#### Add A Second Model
+
+Try adding a second model that allows a user to favorite one or more giphys.
+
+#### Add A React Front End
+
+Try building out a React front end that reproduces the current functionaliy built in jQuery.
 
 ## Plagiarism
 
