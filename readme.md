@@ -24,17 +24,12 @@ Build out your backed in the `backend/` directory.
 You must create an API that runs at `http://localhost:3000/gifs`. You must have
 a few different routes:
 
-* GET `/gifs` which will list out all gifs
-* POST `/gifs` which will add a new gif and return a list of all gifs
-* PUT `gifs/:gifId` which will update a gif and redirect to the list of all gifs
-* DELETE `gifs/:gifId` which will delete a gif and redirect to the list of all gifs
-
-| **URL** | **HTTP Verb** |  **Action**|
-|------------|-------------|------------|
-| /gifs         | GET       | index  
-| /gifs          | POST      | create            
-| /gifs/:gifId     | PUT | update    
-| /gifs/:gifId      | DELETE    | destroy  
+| **URL** | **HTTP Verb** |  **Action**| **Description** |
+|------------|-------------|------------|------------|
+| /gifs         | GET       | index  | list out all gifs
+| /gifs          | POST      | create | add a new gif and return a list of all gifs           
+| /gifs/:gifId     | PUT | update    | update a gif and redirect to the list of all gifs
+| /gifs/:gifId      | DELETE    | destroy  | delete a gif and redirect to the list of all gifs
 
 
 You should have your database set up to store a collection of gifs. Your model
