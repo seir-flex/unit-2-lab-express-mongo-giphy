@@ -62,7 +62,7 @@ Try adding a second model that allows a user to favorite one or more giphys.
 
 #### Add A React Front End
 
-Try building out a React front end that reproduces the current functionaliy built in jQuery.
+Try building out a React front end that reproduces the current functionality built in jQuery.
 
 ## Plagiarism
 
