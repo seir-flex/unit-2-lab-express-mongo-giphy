@@ -17,8 +17,7 @@ backend code to make it functional!
 1. Change into the new directory.
 1. Fulfill the listed requirements.
 
-Build out your backed in the `backend/` directory. You are required to turn in
-your submission by making a pull request on the original repository.
+Build out your backed in the `backend/` directory.
 
 ## Requirements
 
