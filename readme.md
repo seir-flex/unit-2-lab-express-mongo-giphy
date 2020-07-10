@@ -44,7 +44,7 @@ A seed file has been provided with a few gifs to load into your database.  But f
 "https://media.giphy.com/media/3o6ozBUuLfzTCngAFi/giphy.gif").
 
 ### Front End
-It's currently written in jQuery and is already configured to request gif's from your backend server using the `http://localhost:3000/gifs` url but as of right now your server isn't configured so it won't be able to pull or add any gifs untils the server has been configured.
+It's currently written in jQuery and is already configured to request gif's from your backend server using the `http://localhost:3000/gifs` url but as of right now your server isn't configured so it won't be able to pull or add any gifs until the server has been configured.
 
 ### Tips for Getting Started
 
