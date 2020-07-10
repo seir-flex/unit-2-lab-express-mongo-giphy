@@ -37,9 +37,7 @@ should have two attributes:
 
 If these are named differently, you will have to change the frontend!
 
-You should also set up a seed file to load some default gifs into your database.
-We recommend using the Giphy site to get gifs. Use the full URL that has the
-`.gif` file extension (e.g.
+A seed file has been provided with a few gifs to load into your database.  But feel free to use the Giphy site to get additional gifs. Be sure to use the full URL that has the`.gif` file extension (e.g.
 "https://media.giphy.com/media/3o6ozBUuLfzTCngAFi/giphy.gif").
 
 ### Tips for Getting Started
