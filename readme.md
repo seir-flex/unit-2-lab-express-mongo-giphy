@@ -42,12 +42,12 @@ A seed file has been provided with a few gifs to load into your database.  But f
 
 ### Tips for Getting Started
 
-* To start, you'll want to set up all your backend folders and files (think: `db` folder, `index.js` file, etc.).
+* To start, you'll want to set up all your backend folders and files (think: `db` folder, `server.js` file, etc.).
 * You'll also want to run `npm init` to create a `package.json` file to manage dependencies (e.g. `express`).
-* Set up routes in a controller.
+* Set up your server, routes, controller, ect.
 * Once you have your back end running on `http://localhost:3000/gifs`, open `index.html` on the front end to test your routes via the frontend buttons.
 
-**You shouldn't need to edit the front-end code.** After testing your backend
+**You won't need to edit the front-end code.** After testing your backend
 and frontend together, you may have to modify and fix your backend.
 
 ## Bonus
