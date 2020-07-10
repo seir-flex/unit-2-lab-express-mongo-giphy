@@ -29,6 +29,14 @@ a few different routes:
 * PUT `gifs/:gifId` which will update a gif and redirect to the list of all gifs
 * DELETE `gifs/:gifId` which will delete a gif and redirect to the list of all gifs
 
+| **URL** | **HTTP Verb** |  **Action**|
+|------------|-------------|------------|
+| /gifs         | GET       | index  
+| /gifs          | POST      | create            
+| /gifs/:gifId     | PUT | update    
+| /gifs/:gifId      | DELETE    | destroy  
+
+
 You should have your database set up to store a collection of gifs. Your model
 should have two attributes:
 
@@ -47,11 +55,10 @@ A seed file has been provided with a few gifs to load into your database.  But f
 * Set up your server, routes, controller, ect.
 * Once you have your back end running on `http://localhost:3000/gifs`, open `index.html` on the front end to test your routes via the frontend buttons.
 
-**You won't need to edit the front-end code.** It's written in jQuery and is already configured to request gif's from your backend server but of course this first requires setting up the backend. 
+**Front End** It's currently written in jQuery and is already configured to request gif's from your backend server using the `http://localhost:3000/gifs` url but as of right now your server isn't configured so it won't be able to pull or add any gifs untils the server has been configured.
 
 ## Bonus
 
-* create a `/seed` route that will populate the database with at least 3 giphys
 * Re-write the frontend in React.
 * Add another model to the API.
 
