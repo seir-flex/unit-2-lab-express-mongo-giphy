@@ -47,8 +47,7 @@ A seed file has been provided with a few gifs to load into your database.  But f
 * Set up your server, routes, controller, ect.
 * Once you have your back end running on `http://localhost:3000/gifs`, open `index.html` on the front end to test your routes via the frontend buttons.
 
-**You won't need to edit the front-end code.** After testing your backend
-and frontend together, you may have to modify and fix your backend.
+**You won't need to edit the front-end code.** It's written in jQuery and is already configured to request gif's from your backend server but of course this first requires setting up the backend. 
 
 ## Bonus
 
