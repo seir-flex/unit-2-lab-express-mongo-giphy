@@ -16,7 +16,7 @@ backend code to make it functional!
 1. Fork and clone this repository.
 1. Change into the new directory.
 1. Fulfill the listed requirements.
-1. Do NOT use VSCode Live Server to open the HTML as you will receive a CORS error.  Open the page in Chrome without Live Server.
+
 
 Build out your backed in the `backend/` directory.
 
@@ -43,6 +43,27 @@ If these are named differently, you will have to change the frontend!
 
 A seed file has been provided with a few gifs to load into your database.  But feel free to use the Giphy site to get additional gifs. Be sure to use the full URL that has the`.gif` file extension (e.g.
 "https://media.giphy.com/media/3o6ozBUuLfzTCngAFi/giphy.gif").
+
+### CORS
+
+You must install a new package called CORS. 
+
+```js
+npm i cors
+```
+
+
+Then include it in your server.js
+
+```js
+const cors = require("cors")
+```
+
+Add it at the top of your middleware, google cors and the cors library docs on npm to learn more neat things you can do with it
+
+```js
+app.use(cors())
+```
 
 ### Front End
 It's currently written in jQuery and is already configured to request gif's from your backend server using the `http://localhost:3000/gifs` url but as of right now your server isn't configured so it won't be able to pull or add any gifs until the server has been configured.
