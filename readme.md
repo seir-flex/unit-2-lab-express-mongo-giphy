@@ -16,6 +16,7 @@ backend code to make it functional!
 1. Fork and clone this repository.
 1. Change into the new directory.
 1. Fulfill the listed requirements.
+1. Do NOT use VSCode Live Server to open the HTML as you will receive a CORS error.  Open the page in Chrome without Live Server.
 
 Build out your backed in the `backend/` directory.
 
